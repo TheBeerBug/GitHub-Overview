@@ -9,7 +9,7 @@ jobs:
     steps:
     - name: firststep
       shell: cmd
-      run: echo Hello Wolrd.
+      run: echo Hello World
    
  secondjob:
   runs-on: ubuntu-latest
