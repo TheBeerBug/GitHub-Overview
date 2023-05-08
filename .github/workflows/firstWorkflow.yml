@@ -5,13 +5,13 @@ on:
 
 jobs:
   firstjob:
-  runs-on: self-hosted
-  steps:
-   - name: firststep
-     shell: cmd
-     run: echo Hello Wolrd.
+    runs-on: self-hosted
+    steps:
+    - name: firststep
+      shell: cmd
+      run: echo Hello Wolrd.
    
-secondjob:
+ secondjob:
   runs-on: ubuntu-latest
   steps:
   - name: secondstep
