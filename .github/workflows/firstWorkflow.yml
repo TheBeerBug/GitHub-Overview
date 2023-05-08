@@ -17,5 +17,5 @@ secondjob:
   - name: secondstep
     shell: bash
     run: | 
-    echo this is the second job
-    echo and this is multi pass
+     echo this is the second job
+     echo and this is multi pass
