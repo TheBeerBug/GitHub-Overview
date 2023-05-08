@@ -7,9 +7,9 @@ jobs:
   firstjob:
   runs-on: self-hosted
   steps:
-   -name: firststep
-    shell: bash
-    run: echo Hello Wolrd.
+   - name: firststep
+     shell: cmd
+     run: echo Hello Wolrd.
    
 secondjob:
   runs-on: ubuntu-latest
